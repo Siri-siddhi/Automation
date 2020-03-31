@@ -11,8 +11,6 @@ public class TestngMangento {
 
 	@Test
 	public void negative_login() throws InterruptedException {
-		
-		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
